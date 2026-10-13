@@ -51,7 +51,7 @@ elif new_balance != 1000:
     print("Balance is not £1000.")
 else:
     print("Balance below the limit")
-print("Available Balance:", new_balance)
+
 card_active = True
 online_banking = True
 if card_active and online_banking: # Logical operator AND
@@ -65,4 +65,4 @@ else:
 account_status = card_active
 if account_status is card_active:    #using identity operator
     print("Account status is active.")
-print("New Balance: £", new_balance)
+print("Available Balance:", new_balance)
