@@ -51,6 +51,7 @@ elif new_balance != 1000:
     print("Balance is not £1000.")
 else:
     print("Balance below the limit")
+    print("New Balance:", new_balance)
 card_active = True
 online_banking = True
 if card_active and online_banking: # Logical operator AND
